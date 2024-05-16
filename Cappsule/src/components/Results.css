@@ -1,0 +1,37 @@
+.results {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.result {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.button-available-selected {
+    background-color: blue;
+    color: white;
+}
+
+.button-available-not-selected {
+    background-color: white;
+    color: black;
+}
+
+.button-not-available-selected {
+    background-color: gray;
+    color: white;
+}
+
+.button-not-available-not-selected {
+    background-color: lightgray;
+    color: black;
+}
